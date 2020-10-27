@@ -1,16 +1,4 @@
-"""
-进程池使用示例
-
-* 父进程退出则进程池会自动销毁
-"""
-from multiprocessing import Pool
-from time import sleep,ctime
-import random
-
-# 进程池事件函数
-def worker(msg,sec):
-    print(ctime(),"---",msg)
-    sleep(sec)
+123213123asd21dasd方案3
 
 # 创建进程池
 pool = Pool(4)
